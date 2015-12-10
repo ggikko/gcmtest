@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     //BroadcastReceiver 등
     private void setBroadcastReceiver() {
         mGcm_BroadcastReceiver = new BroadcastReceiver() {
+
             @Override
             public void onReceive(Context context, Intent intent) {
 

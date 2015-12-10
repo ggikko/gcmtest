@@ -18,9 +18,14 @@ public class RegisterationIntentService extends IntentService {
 
     private static final String TAG = "RegisterationIntentService";
 
+    public RegisterationIntentService() {
+        super(TAG);
+    }
+
     public RegisterationIntentService(String name) {
         super(name);
     }
+
 
     @SuppressLint("LongLogTag")
     @Override
